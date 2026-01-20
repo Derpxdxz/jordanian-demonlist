@@ -1,0 +1,24 @@
+{
+    "id": 58825144,
+    "name": "Sigma Interface",
+    "author": "KrmaL",
+    "creators": [
+        "KrmaL"
+    ],
+    "verifier": "KrmaL",
+    "verification": "https://www.youtube.com/watch?v=6PfrFMwiIuk",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=6PfrFMwiIuk",
+            "percent": 100
+        },
+        {
+            "user": "Raygone",
+            "link": "https://youtu.be/z-c9os1WBKs",
+            "percent": 100
+        }
+    ]
+}

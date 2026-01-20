@@ -1,0 +1,21 @@
+{
+    "id": 58825144,
+    "name": "EKO",
+    "author": "PureDinoMight",
+    "creators": [
+        "PureDinoMight",
+        "KazVA",
+        "Gyrodog"
+    ],
+    "verifier": "Victurkey",
+    "verification": "https://www.youtube.com/watch?v=s4ELIwOQk4k",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=s4ELIwOQk4k",
+            "percent": 100
+        }
+    ]
+}

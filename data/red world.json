@@ -1,0 +1,19 @@
+{
+    "id": 58825144,
+    "name": "red world",
+    "author": "KrmaL",
+    "creators": [
+        "KrmaL"
+    ],
+    "verifier": "KrmaL",
+    "verification": "https://www.youtube.com/watch?v=ZH8iubNQBXE&pp=ygUJcmVkIHdvcmxk",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "cylia",
+            "link": "https://youtu.be/WaHM0eWTYvc",
+            "percent": 100
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": 58825144,
+    "name": "Prismatic Haze",
+    "author": "KrmaL",
+    "creators": [
+        "KrmaL"
+    ],
+    "verifier": "KrmaL",
+    "verification": "https://youtu.be/aE6EPsnTOLA",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Raygone",
+            "link": "https://youtu.be/aE6EPsnTOLA",
+            "percent": 100
+        },
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=M0_DnRe9M8U",
+            "percent": 100
+        }
+    ]
+}

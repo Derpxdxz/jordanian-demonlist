@@ -1,0 +1,17 @@
+{
+    "id": 58825144,
+    "name": "Deception Dive",
+    "author": "Rustam",
+    "creators": [ "Zober", "ZenthicAlpha", "AmorAltra", "Platnuu", "Sharks", "Berke423", "Lucasyecla99", "Ryder", "Mazl", "KrampuX", "Disp", "Rustam"],
+    "verifier": "Berke423",
+    "verification": "https://www.youtube.com/watch?v=fYgJGsql3zc",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "DerekBAWS",
+            "link": "https://www.youtube.com/watch?v=fYgJGsql3zc",
+            "percent": 100
+        }
+    ]
+}

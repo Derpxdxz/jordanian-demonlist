@@ -1,0 +1,27 @@
+{
+    "id": 10565740,
+    "name": "Bloodbath",
+    "author": "Riot",
+    "creators": ["Riot", "Weoweoteo", "Vermillion", "Michigun", "Evasium", "Crack", "ASonicMen", "Etzer", "Havok", "Giron", "Ggb0y"],
+    "verifier": "Riot",
+    "verification": "https://www.youtube.com/watch?v=T2ZNSADPhj0&pp=2AbbAQ%3D%3D",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "cylia",
+            "link": "https://youtu.be/WaHM0eWTYvc",
+            "percent": 100
+        },
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=T2ZNSADPhj0&pp=2AbbAQ%3D%3D",
+            "percent": 100
+        },
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=wRIZz4LroPc",
+            "percent": 100
+        }
+    ]
+}

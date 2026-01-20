@@ -1,0 +1,269 @@
+.page-leaderboard-container {
+    display: block;
+}
+.page-leaderboard {
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(24rem, 2fr) 3fr;
+    grid-template-rows: max-content 1fr;
+    column-gap: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.page-leaderboard > div {
+    overflow-y: auto;
+}
+.page-leaderboard .error-container {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+.page-leaderboard .error-container .error {
+    padding: 1rem;
+    background-color: var(--color-error);
+    color: var(--color-on-error);
+}
+.page-leaderboard .board-container,
+.page-leaderboard .player-container {
+    grid-row: 2;
+    padding-block: 2rem;
+}
+.page-leaderboard .board-container {
+    padding-inline: 1rem;
+}
+
+.page-leaderboard .board-container .search-bar {
+    display:flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.page-leaderboard .board-container .search-bar input {
+    flex: 1;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-outline, #cfcfcf);
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    outline: none;
+}
+
+.page-leaderboard .board-container .search-bar input:focus {
+    border-color: var(--color-primary);
+}
+
+.page-leaderboard .board-container .search-bar .search-btn {
+    background-color: var(--color-background);
+    border: 1px solid transparent;
+    color: var(--color-on-background);
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.page-leaderboard .board-container .search-bar .search-btn:hover {
+    background-color: var(--color-background-hover);
+}
+.page-leaderboard .board {
+    table-layout: auto;
+    display: block;
+    width: 100%;
+}
+.page-leaderboard .board .rank {
+    padding-block: 1rem;
+    text-align: end;
+}
+.page-leaderboard .board .total {
+    padding: 1rem;
+    text-align: end;
+}
+.page-leaderboard .board .players {
+    padding: 1rem;
+    text-align: center;
+    color: var(--color-on-background-muted, rgba(255, 255, 255, 0.6));
+    font-size: 0.95em;
+}
+.page-leaderboard .board .user {
+    width: 100%;
+}
+.page-leaderboard .board .user button {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: start;
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
+.page-leaderboard .board .user button:hover {
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background-hover);
+    cursor: pointer;
+}
+.page-leaderboard .board .user.active button {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+.page-leaderboard .player {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+.page-leaderboard .player .table {
+    table-layout: fixed;
+}
+.page-leaderboard .player .table tr td:not(:last-child) {
+    padding-right: 2rem;
+}
+.page-leaderboard .player .table p,
+.page-leaderboard .player .table a {
+    padding-block: 1rem;
+}
+.page-leaderboard .player .table .rank p,
+.page-leaderboard .player .table .score p {
+    text-align: end;
+}
+.page-leaderboard .player .table .level {
+    width: 100%;
+}
+.page-leaderboard .player .table a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure pack/level links in player profile stack correctly and have vertical spacing */
+.page-leaderboard .player .table .level a.type-label-lg {
+    display: block;
+    padding-block: 0.75rem;
+    line-height: 1.2;
+}
+
+.page-leaderboard .view-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+.page-leaderboard .view-tabs button {
+    background: var(--color-background);
+    color: var(--color-on-background);
+    border: 1px solid transparent;
+    padding: 0.45rem 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.page-leaderboard .view-tabs button.active {
+    background: var(--color-primary);
+    color: var(--color-on-primary);
+    border-color: var(--color-primary);
+}
+.page-leaderboard .flag {
+    display: inline-block;
+    height: 1.18em;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 0.75rem;
+}
+.page-leaderboard .player h1 .flag {
+    height: 1.4em;
+    margin-right: 0.75rem;
+}
+
+
+
+/* Ensure username rows align flag and text */
+.page-leaderboard .board .user button span,
+.page-leaderboard .board .country button span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+/* Country name shown beside flag */
+.page-leaderboard .country-name {
+    font-size: 0.95em;
+    color: var(--color-on-background);
+    line-height: 1;
+}
+
+/* Restore player row spacing to original compact values */
+.page-leaderboard .board .rank {
+    padding-block: 1rem;
+    text-align: end;
+}
+.page-leaderboard .board .total {
+    padding: 1rem;
+    text-align: end;
+}
+.page-leaderboard .board .user button {
+    padding: 1rem;
+}
+
+/* Keep view-tabs spacing standard */
+.page-leaderboard .view-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Country name button should not have a background */
+.page-leaderboard .board .country .country-btn {
+    background: transparent;
+    border: none;
+    padding: 0.35rem 0.5rem;
+    cursor: pointer;
+    border-radius: 0.35rem;
+    width: 100%;
+    text-align: left;
+}
+.page-leaderboard .board .country .country-btn:hover {
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background-hover);
+    cursor: pointer;
+}
+.page-leaderboard .board tr.active-country .country-btn {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+
+/* Country profile (right pane) — increased spacing only for country profiles */
+.page-leaderboard .player.country-profile {
+    gap: 2.6rem;
+}
+.page-leaderboard .player.country-profile h1 {
+    margin-bottom: 1.5rem; /* more space between the flag/username and the points */
+}
+/* Hide flags inside country profile content (keep title flag visible) */
+.page-leaderboard .player.country-profile .flag,
+.page-leaderboard .player.country-profile img.inline-flag {
+    display: none;
+}
+.page-leaderboard .player.country-profile h1 .flag,
+.page-leaderboard .player.country-profile h1 img.flag {
+    display: inline-block;
+    height: 1.4em;
+    margin-right: 0.75rem;
+}
+.page-leaderboard .player.country-profile h3 {
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+.page-leaderboard .player.country-profile .players-info {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.95em;
+    color: var(--color-on-background-muted, rgba(255, 255, 255, 0.6));
+}
+.page-leaderboard .player.country-profile .table tr td {
+    padding-block: 0.2rem; /* match player profile compact spacing */
+}
+
+.page-leaderboard .country-leaderboard-btn {
+    background: var(--color-background);
+    color: white;
+    border: 1px solid white;
+    padding: 0.45rem 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}

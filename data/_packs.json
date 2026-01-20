@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Memory Pack",
+        "levels": ["LIMBO", "Lithium", "ConClusion"],
+        "color": "#674EF5"
+    },
+    {
+        "name": "The New RGB Pack",
+        "levels": ["Sonic Wave Infinity", "Tartarus", "The Golden"],
+        "color": "#FFF202"
+    },
+    {
+        "name": "2020 Top 1 Pack",
+        "levels": ["Tartarus", "The Golden", "Zodiac"],
+        "color": "#FFD700"
+    },
+    {
+        "name": "Green Pack",
+        "levels": ["The Golden", "Verdant Landscape", "Keres"],
+        "color": "#00FF00"
+    },
+    {
+        "name": "Extension Pack",
+        "levels": ["Fragile", "Keres", "Bloodlust"],
+        "color": "#F5514E"
+    },
+    {
+        "name": "Weather Trilogy",
+        "levels": ["Aerial Gleam", "Arctic Lights", "Aquatic Auroras"],
+        "color": "#808080"
+    },
+    {
+        "name": "Sonic Wave Pack",
+        "levels": ["Sonic Wave Infinity", "Sonic Wave Rebirth", "Sonic Wave"],
+        "color": "#2f49bd"
+    },
+    {
+        "name": "Hot Pack",
+        "levels": ["Promethean", "Ouroboros", "Molten Gear"],
+        "color": "#F5712F"
+    },
+    {
+        "name": "Knobbelboy Pack",
+        "levels": ["Ragnarok", "Bloodlust", "Molten Gear"],
+        "color": "#F5A14E"
+    },
+    {
+        "name": "The RGB Pack",
+        "levels": ["Sonic Wave", "Yatagarasu", "Erebus"],
+        "color": "#FFF202"
+    },
+    {
+        "name": "Greek Letter Pack",
+        "levels": ["Sigma", "Omega", "Gamma"],
+        "color": "#E4E0E1"
+    },
+    {
+        "name": "Derpxdxz's Favorite",
+        "levels": ["Thinking Space", "Sonic Wave", "Loochiverse"],
+        "color": "#BEB5FF"
+    },
+    {
+        "name": "Cold Pack",
+        "levels": ["Arctic Lights", "Frozen Cave", "Storming Summit"],
+        "color": "#B4DAE0"
+    },
+    {
+        "name": "Dual Pack",
+        "levels": ["Aronia", "Spectrum Cyclone", "Celestial Force"],
+        "color": "#E6DE7A"
+    },
+    {
+        "name": "Tech Trilogy Pack",
+        "levels": ["Cybernetic Crescent", "Digital Descent", "Artificial Ascent"],
+        "color": "#4E9CF5"
+    },
+    {
+        "name": "Femboy Pack",
+        "levels": ["kowareta", "Wasureta", "Kuzureta"],
+        "color": "#E94EF5"
+    }
+]

@@ -1,0 +1,44 @@
+{
+    "id": 61079355,
+    "name": "Acu",
+    "author": "neigefeu",
+    "creators": [
+        "neigefeu"
+    ],
+    "verifier": "neigefeu",
+    "verification": "https://www.youtube.com/watch?v=HeFIkahBI3I",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "DerekBAWS",
+            "link": "https://www.youtube.com/watch?v=HeFIkahBI3I",
+            "percent": 100
+        },
+        {
+            "user": "tryxgmd",
+            "link": "https://www.youtube.com/watch?v=UcQQGORhVIw",
+            "percent": 100
+        },
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=ZcjTLghxmDs&ab_channel=Krox",
+            "percent": 100
+        },
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=htHriigmT80",
+            "percent": 100
+        },
+        {
+            "user": "Raygone",
+            "link": "https://www.youtube.com/watch?v=RvA6aGLYPx4",
+            "percent": 100
+        },
+        {
+            "user": "Rowclay",
+            "link": "https://youtube.com/shorts/jpAQ-BoQyqY?si=ZJ4AdTshhLRXtVWu",
+            "percent": 100
+        }
+    ]
+}

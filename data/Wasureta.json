@@ -1,0 +1,33 @@
+{
+    "id": 64658786,
+    "name": "Wasureta",
+    "author": "HelpegasuS",
+    "creators": [
+        "XLSpiral",
+        "HelpegasuS",
+        "Deadlox",
+        "augi",
+        "Isane",
+        "Belonzik",
+        "El3ctr0",
+        "LimeTime313",
+        "crazen",
+        "Splash"
+    ],
+    "verifier": "VaporWubz",
+    "verification": "https://youtu.be/GMas5-NymMg",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "cylia",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "RayGone",
+            "link": "https://youtu.be/GMas5-NymMg",
+            "percent": 100
+        }
+    ]
+}

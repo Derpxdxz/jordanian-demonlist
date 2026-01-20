@@ -1,0 +1,35 @@
+{
+    "id": 58825144,
+    "name": "Sweater Weather",
+    "author": "KrmaL",
+    "creators": [
+        "KrmaL"
+    ],
+    "verifier": "KrmaL",
+    "verification": "https://www.youtube.com/watch?v=5yLpuJ-fL2w",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=5yLpuJ-fL2w",
+            "percent": 100
+        },
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=hk8IIHXwLF0",
+            "percent": 100
+        },
+        {
+            "user": "RayGone",
+            "link": "https://www.youtube.com/watch?v=aIL0bTqxmbo",
+            "percent": 100
+        },
+        {
+            "user": "cylia",
+            "link": "",
+            "percent": 100
+        }
+
+    ]
+}

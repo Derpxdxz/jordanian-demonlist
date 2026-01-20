@@ -1,0 +1,36 @@
+{
+    "id": 58825144,
+    "name": "Cataclysm",
+    "author": "Ggb0y",
+    "creators": [
+        "Ggb0y",
+        "Riot"
+    ],
+    "verifier": "Riot",
+    "verification": "https://www.youtube.com/watch?v=NhvODfsCPbM&ab_channel=Krox",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=NhvODfsCPbM&ab_channel=Krox",
+            "percent": 100
+        },
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=7Ouk-hBmric",
+            "percent": 100
+        },
+        {
+            "user": "cylia",
+            "link": "",
+            "percent": 100
+        },
+        {
+            "user": "Raygone",
+            "link": "https://youtu.be/NPKUpWIZkO0",
+            "percent": 100
+        }
+
+    ]
+}

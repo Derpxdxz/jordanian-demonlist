@@ -1,0 +1,30 @@
+{
+    "id": 58825144,
+    "name": "niwa",
+    "author": "KrmaL",
+    "creators": [
+        "KrmaL"
+    ],
+    "verifier": "KrmaL",
+    "verification": "https://www.youtube.com/watch?v=145pBP_nKmg",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Raygone",
+            "link": "https://youtu.be/TM_e6tClUGQ",
+            "percent": 100
+        },
+        {
+            "user": "t1meskipper",
+            "link": "https://www.youtube.com/watch?v=JT6pdtr6f5E",
+            "percent": 100
+        },
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=145pBP_nKmg",
+            "percent": 100
+        }
+
+    ]
+}

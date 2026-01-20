@@ -1,0 +1,32 @@
+{
+    "id": 26681070,
+    "name": "Sonic Wave",
+    "author": "Sunix",
+    "creators": [
+        "Cyclic"
+    ],
+    "verifier": "Sunix",
+    "verification": "https://www.youtube.com/watch?v=hutHECEtkp0",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "cylia",
+            "link": "",
+            "percent": 100,
+            "hz": 300
+        },
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=hutHECEtkp0",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=Tl21xZW6j2k&pp=2AYR",
+            "percent": 100,
+            "hz": 480
+        }
+   ]
+}

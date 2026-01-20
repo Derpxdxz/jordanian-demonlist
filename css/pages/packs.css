@@ -1,0 +1,79 @@
+.page-packs {
+    padding: 24px;
+}
+
+.page-packs h1 {
+    margin: 0 0 12px 0;
+}
+
+.packs-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.pack-card {
+    min-width: 220px;
+    height: 56px;
+    border-radius: 18px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-background-hover);
+    color: var(--color-on-background);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    cursor: pointer;
+    transition: all 180ms ease;
+    overflow: hidden;
+    border: none;
+}
+
+.pack-card:hover { transform: translateY(-2px); }
+
+.pack-compact-center {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.pack-card.expanded {
+    min-height: 240px;
+    width: 320px;
+    padding: 18px;
+    display: block;
+}
+
+.pack-expanded {
+    padding-top: 8px;
+}
+
+.pack-expanded-title {
+    margin: 8px 0 4px 0;
+    text-align: center;
+    font-size: 1.35rem;
+}
+
+.pack-expanded-points {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.pack-level-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pack-level-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pack-level-list a:hover { text-decoration: underline; }

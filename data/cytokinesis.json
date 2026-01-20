@@ -1,0 +1,22 @@
+{
+    "id": 58825144,
+    "name": "cytokinesis",
+    "author": "sauzzeth",
+    "creators": [
+        "sauzzeth",
+        "bli",
+        "CuLuC",
+        "victorinoxX"
+    ],
+    "verifier": "sauzzeth",
+    "verification": "https://www.youtube.com/watch?v=pXae_S0KWkI",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "t1meskipper",
+            "link": "https://www.youtube.com/watch?v=pXae_S0KWkI",
+            "percent": 100
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": 58825144,
+    "name": "Auditory Breaker",
+    "author": "LazerBlitz",
+    "creators": [
+        "LazerBlitz",
+        "Manix648"
+    ],
+    "verifier": "LazerBlitz",
+    "verification": "https://youtu.be/z08DIug-lUY",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Derpxdxz",
+            "link": "https://youtu.be/z08DIug-lUY",
+            "percent": 100
+        },
+        {
+            "user": "cylia",
+            "link": "",
+            "percent": 100
+        }
+    ]
+}

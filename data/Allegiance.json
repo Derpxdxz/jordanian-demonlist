@@ -1,0 +1,19 @@
+{
+    "id": 58825144,
+    "name": "Allegiance",
+    "author": "NikroPlays",
+    "creators": [
+        "NikroPlays"
+    ],
+    "verifier": "NikroPlays",
+    "verification": "https://www.youtube.com/watch?v=ocokOAAu-68",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "DerekBAWS",
+            "link": "https://www.youtube.com/watch?v=ocokOAAu-68",
+            "percent": 100
+        }
+    ]
+}

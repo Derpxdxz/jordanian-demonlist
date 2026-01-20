@@ -1,0 +1,24 @@
+{
+    "id": 58825144,
+    "name": "Crowd Control",
+    "author": "zDeadlox",
+    "creators": [
+        "zDeadlox"
+    ],
+    "verifier": "zDeadlox",
+    "verification": "https://www.youtube.com/watch?v=v7gQvcVsCDs",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Derpxdxz",
+            "link": "https://www.youtube.com/watch?v=v7gQvcVsCDs",
+            "percent": 100
+        },
+        {
+            "user": "Raygone",
+            "link": "https://www.youtube.com/watch?v=y67haMb--uo",
+            "percent": 100
+        }
+    ]
+}

@@ -1,0 +1,259 @@
+:root {
+    --color-background: white;
+    --color-on-background: black;
+    --color-background-hover: #eee;
+    --color-on-background-hover: black;
+    --color-primary: #CE1126;
+    --color-on-primary: white;
+    --color-error: #de0000;
+    --color-on-error: white;
+}
+
+main.dark,
+header.dark {
+    color-scheme: dark;
+    --color-background: #1c1b1f;
+    --color-on-background: white;
+    --color-background-hover: #27262c;
+    --color-on-background-hover: white;
+    --color-primary: #CE1126;
+    --color-primary-disabled: #1f213c;
+    --color-on-primary: white;
+    --color-error: #de0000;
+    --color-on-error: white;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Arabic RTL and font */
+.arabic {
+    font-family: 'Cairo', 'Lexend Deca', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    direction: rtl;
+}
+
+/* Submit popup form styles */
+.site-popup form {
+    width: 100%;
+    max-width: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem 1rem;
+}
+.site-popup form label {
+    grid-column: span 2;
+    text-align: start;
+    font-weight: 600;
+}
+.site-popup form input,
+.site-popup form select,
+.site-popup form textarea {
+    grid-column: span 2;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background);
+    border: 1px solid rgba(0,0,0,0.08);
+}
+.site-popup form textarea {
+    min-height: 6rem;
+}
+.site-popup form .site-popup__actions {
+    grid-column: span 2;
+    justify-content: center;
+}
+.site-popup form input::placeholder,
+.site-popup form textarea::placeholder {
+    color: rgba(0,0,0,0.5);
+}
+.site-popup-overlay.dark .site-popup form input,
+.site-popup-overlay.dark .site-popup form select,
+.site-popup-overlay.dark .site-popup form textarea {
+    background-color: #27262c;
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+
+header,
+main {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    display: grid;
+    grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
+            16em,
+            1fr
+        );
+    column-gap: 2rem;
+}
+
+header {
+    display: flex;
+    padding-inline: calc(25vw - 10rem);
+    height: 4rem;
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+@media screen and (min-width: 1366px) {
+    header {
+        display: grid;
+        padding-inline: 0;
+    }
+}
+header .logo {
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+header .nav {
+    flex: 1;
+}
+
+main {
+    height: 0;
+    flex: 1;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr);
+    column-gap: 2rem;
+}
+main > div {
+    overflow-y: auto;
+}
+
+.spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 3;
+}
+
+input[type="checkbox"] {
+    height: 1.25rem;
+    width: 1.25rem;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* Popup overlay and card (promo) */
+.site-popup-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    padding: 2rem;
+}
+.site-popup-overlay.dark {
+    /* subtle lighter overlay in dark mode */
+    background: rgba(0,0,0,0.6);
+}
+
+.site-popup {
+    position: relative;
+    width: 92vw;
+    max-width: 1200px;
+    height: 86vh;
+    background: var(--color-background);
+    color: var(--color-on-background);
+    padding: 2rem;
+    border-radius: 12px;
+    overflow: auto;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.site-popup h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.site-popup__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.site-popup__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.video-wrapper {
+    width: 100%;
+    max-width: 960px;
+    aspect-ratio: 16/9;
+    height: auto;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 0;
+    display: block;
+}
+
+.site-popup__link a {
+    color: var(--color-primary);
+    word-break: break-all;
+}
+
+.site-popup__actions {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.site-popup__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--color-on-background);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+/* Dark mode styles for the popup when overlay has the .dark class */
+.site-popup-overlay.dark {
+    background: rgba(0,0,0,0.6);
+}
+.site-popup-overlay.dark .site-popup {
+    background: #1c1b1f;
+    color: #ffffff;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+}
+.site-popup-overlay.dark .site-popup__close {
+    color: #ffffff;
+}
+.site-popup-overlay.dark .site-popup__link a {
+    color: var(--color-primary);
+}
+
+@media (max-width: 640px) {
+    .site-popup { width: 100%; height: 92vh; padding: 1rem; border-radius: 6px; }
+    .site-popup h2 { font-size: 1.25rem; }
+    .video-wrapper { max-height: 40vh; aspect-ratio: 16/9; }
+}
+

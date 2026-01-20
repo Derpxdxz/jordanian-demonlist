@@ -1,0 +1,19 @@
+{
+    "id": 114510471,
+    "name": "shimmer",
+    "author": "amplitron",
+    "creators": [
+        "amplitron"
+    ],
+    "verifier": "amplitron",
+    "verification": "https://youtu.be/b5phWfrvj8c",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "RayGone",
+            "link": "https://youtu.be/b5phWfrvj8c",
+            "percent": 100
+        }
+    ]
+}

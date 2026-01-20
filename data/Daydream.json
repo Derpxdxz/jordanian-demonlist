@@ -1,0 +1,19 @@
+{
+    "id": 58825144,
+    "name": "Daydream",
+    "author": "Yendis",
+    "creators": [
+        "Yendis"
+    ],
+    "verifier": "Yendis",
+    "verification": "https://www.youtube.com/watch?v=gw3UCioq6I4",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Krox",
+            "link": "https://www.youtube.com/watch?v=gw3UCioq6I4",
+            "percent": 100
+        }
+    ]
+}

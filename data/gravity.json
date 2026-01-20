@@ -1,0 +1,19 @@
+{
+    "id": 58825144,
+    "name": "gravity",
+    "author": "KrmaL",
+    "creators": [
+        "KrmaL"
+    ],
+    "verifier": "KrmaL",
+    "verification": "https://youtu.be/5jJ8E4-8hCw?si=7BFT_zp1nCdo7zxl",
+    "percentToQualify": "100",
+    "password": "46290",
+    "records": [
+        {
+            "user": "Raygone",
+            "link": "https://youtu.be/5jJ8E4-8hCw?si=7BFT_zp1nCdo7zxl",
+            "percent": 100
+        }
+    ]
+}
